@@ -2,14 +2,21 @@
 
 
 
-/* Portable device. Set up. I want the picture to Stack */
+/* mobile device. Set up. I want the picture to Stack */
    /* Img picture is gonna change.  */
 
+   @media (max-width: 375px) {
+   
+  } 
+/* Desktop view */
+
+
+/* - Mobile: 375px
+- Desktop: 1440px */
 
 /* Picture shoule be side by side.  */
 
-@media (max-width: 767px) {
-    .testimonials {
-      margin: 30px 10px;
-    }
+
+@media (max-width: 1440px) {
+    
   } 
