@@ -1,1 +1,15 @@
 /* All Style sheet stuff goes here */
+
+
+
+/* Portable device. Set up. I want the picture to Stack */
+   /* Img picture is gonna change.  */
+
+
+/* Picture shoule be side by side.  */
+
+@media (max-width: 767px) {
+    .testimonials {
+      margin: 30px 10px;
+    }
+  } 
