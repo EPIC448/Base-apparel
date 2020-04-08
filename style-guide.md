@@ -11,8 +11,8 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Desaturated Red: hsl(0, 36%, 70%)
-- Soft Red: hsl(0, 93%, 68%)
+√ - Desaturated Red: hsl(0, 36%, 70%)
+√- Soft Red: hsl(0, 93%, 68%)
 
 ### Neutral
 
@@ -27,9 +27,9 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size: 16px
+√- Font size: 16px
 
 ### Font
 
-- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
-- Weights: 300, 400, 600
+√- Family: [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans)
+√ - Weights: 300, 400, 600

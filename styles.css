@@ -1,14 +1,53 @@
-/* All Style sheet stuff goes here */
+/*  General section. */
+/* -------------------- */
+
+
+/* body */
+ @font-face{
+    font-family: 'Josefin Sans';
+    src: url(https://fonts.google.com/specimen/Josefin+Sans); 
+ }
+
+    body {
+
+      font-size: 16px;
+      align-content: center;
+       font-family: Josefin Sans ;
+       font-weight: 300, 400, 600;
+       background: Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+    }
+    
+
+    /* __________________ 
+     HEADAER
+    */
+ 
+
+    header {
+      padding: 11px;
+      background: rgb(98, 130, 160);
+      color: #fff;
+    }
 
 
 
-/* mobile device. Set up. I want the picture to Stack */
-   /* Img picture is gonna change.  */
+
+    /* End of Header */
+
+
+
+    /* color: Red: hsl(0, 93%, 68%)  */
+
+    /* background-color: hsl(0, 36%, 70%); */
+
+     /* background for the WERE ARE COMING PAGE. 
+     background: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%); */
+
 
    @media (max-width: 375px) {
    
   } 
-/* Desktop view */
+
 
 
 /* - Mobile: 375px
@@ -16,7 +55,17 @@
 
 /* Picture shoule be side by side.  */
 
-
+/* Desktop view */
 @media (max-width: 1440px) {
     
+  .image-replacement {
+    display: block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(images/hero-desktop.jpg) no-repeat;
+    width: 180px;
+    height: 236px;
+    padding-left: 180px;
+  }
+
   } 
