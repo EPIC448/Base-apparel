@@ -6,6 +6,7 @@
  @font-face{
     font-family: 'Josefin Sans';
     src: url(https://fonts.google.com/specimen/Josefin+Sans); 
+    background-color: Red hsl(0, 6%, 24%)
  }
 
     body {
@@ -25,52 +26,31 @@
 
     header {
       padding: 11px;
-      background: rgb(98, 130, 160);
-      color: #fff;
+      background: - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+      
     }
-
-
-
 
     /* End of Header */
 
 
-
-    /* color: Red: hsl(0, 93%, 68%)  */
-
-    /* background-color: hsl(0, 36%, 70%); */
-
-     /* background for the WERE ARE COMING PAGE. 
-     background: Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%); */
-
-
    @media (max-width: 375px) {
-
-    #mobile-image, img {
+   /* Styling for Mobile goees here÷ */ 
+    #mobile-image, img {      border-color: red, blueviolet;
       width: 45%; 
-      border-color: red, blueviolet;
+
+    }
+
+
+    .image-replacement {
+      display: block;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      background: url(images/hero-mobile.jp) no-repeat;
+      width: 180px;
+      height: 236px;
+      padding-left: 180px;
     }
    
   } 
 
 
-
-/* - Mobile: 375px
-- Desktop: 1440px */
-
-/* Picture shoule be side by side.  */
-
-/* Desktop view
-@media (max-width: 1440px) {
-    
-  .image-replacement {
-    display: block;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background: url(images/hero-desktop.jpg) no-repeat;
-    width: 180px;
-    height: 236px;
-    padding-left: 180px;
-  }
-
-  }  */
