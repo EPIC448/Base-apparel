@@ -45,6 +45,11 @@
 
 
    @media (max-width: 375px) {
+
+    #mobile-image, img {
+      width: 45%; 
+      border-color: red, blueviolet;
+    }
    
   } 
 
@@ -55,7 +60,7 @@
 
 /* Picture shoule be side by side.  */
 
-/* Desktop view */
+/* Desktop view
 @media (max-width: 1440px) {
     
   .image-replacement {
@@ -68,4 +73,4 @@
     padding-left: 180px;
   }
 
-  } 
+  }  */
