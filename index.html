@@ -1,56 +1,66 @@
 <!-- this is where all the Structure Goes. I want to build mobile first then Desktop.  -->
 
 <!DOCTYPE html>
-    <html>
-        <!-- Title -->
-       
-        <!-- Templates -->
-        <link rel="stylesheet" href="styles.css">
-       
+<html>
+<!-- Title -->
 
-  <!-- Circle Logo goes here IN the Header -->
-        <header>
-             <div>
-              <img class="logo" src="images/logo.svg">
-            </div>
+<!-- Templates -->
+<link rel="stylesheet" href="styles.css">
 
-        </header>
 
-  <body> 
-        <div>
-   
+<!-- Circle Logo goes here IN the Header -->
+<header>
+    <div>
+        <img class="logo" src="images/logo.svg">
+    </div>
 
-    <section id="desktop ">
+</header>
 
-        <div id= "content">
-         <strong><em> WE'RE </em> </strong>
+<body>
+
+    <div class="background-image">
+        <img class="desktop-background" src="images/bg-pattern-desktop.svg">
+    </div>
+
+
+
+    <div id="parent-split ">
+
+        <div id="left-div">
+        <div class="centered">
+            <strong><em> WE'RE </em> </strong>
             <br>
-             <strong>coming Soon</strong> 
+            <strong>coming Soon</strong>
 
-            <p>Hello Fellow shoppers!We currently are building our new fashion store. Add your email below to stay 
+            <p>Hello Fellow shoppers!We currently are building our new fashion store. Add your email below to stay
                 up-to-date with announcements and our launch deals.
             </p>
 
             <form>
-             <input type ="email" id="email" name = "Email Address">
+                <input type="email" id="email" name="Email Address">
 
-             </form>
+            </form>
+        </div>
+
         </div>
 
 
-            <div id="image-container">
-            <img class="desktop-background" src="images/bg-pattern-desktop.svg">
-            </div>
+        <div id="right-div">
 
-            <div>
-                <img class="arrow" src="images/icon-arrow.svg">
-            </div>
-        <img class="desktop-picture" src="images/hero-desktop.jpg">
+            <div class="centered"> 
+                <img class="desktop-picture" src="images/hero-desktop.jpg">
 
-       
-    </section>
-    
-       </div>
-    </body>
+           
+        <!-- <div>
+            <img class="arrow" src="images/icon-arrow.svg">
+        </div> -->
 
-    </html>
+      </div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
