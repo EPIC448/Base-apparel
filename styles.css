@@ -47,12 +47,15 @@
   top: 0;
   overflow-x: hidden;
   padding-top: 30px;
+  border-style: ridge;
+border-color: saddlebrown;
 }
 
 
 /* Control the left side */
 .left {
   left: 0;
+  padding-top: 30px;
   background-color: pink;
   z-index: 2 ;
 }
