@@ -29,7 +29,7 @@
       border-color: red;
       border-style: ridge;
       background: - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-     
+     z-index: 1;
     }
 
     /* End of Header */
@@ -46,18 +46,21 @@
   /* z-index: 1; */
   top: 0;
   overflow-x: hidden;
-  padding-top: 30px;
+  padding-top: 40px;
   border-style: ridge;
-border-color: saddlebrown;
 }
 
 
 /* Control the left side */
 .left {
   left: 0;
-  padding-top: 30px;
+  position: sticky;
+  width: 100%;
+  /* padding-top: 30px; */
   background-color: pink;
   z-index: 2 ;
+  border-color: saddlebrown;
+
 }
 
 /* Control the right side */
@@ -68,7 +71,7 @@ border-color: saddlebrown;
 
 /* If you want the content centered horizontally and vertically */
 .centered {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
