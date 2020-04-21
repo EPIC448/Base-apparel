@@ -24,7 +24,7 @@
  
 
     header {
-      padding: 11px;
+      padding-bottom: 20px;
       position: relative;
       border-color: red;
       border-style: ridge;
@@ -55,7 +55,8 @@
 .left {
   left: 0;
   position: sticky;
-  width: 100%;
+  width: 95%;
+  height: 95%;
   /* padding-top: 30px; */
   background-color: pink;
   z-index: 2 ;
