@@ -25,8 +25,11 @@
 
     header {
       padding: 11px;
+      position: relative;
+      border-color: red;
+      border-style: ridge;
       background: - Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
-      
+     
     }
 
     /* End of Header */
@@ -40,22 +43,24 @@
   height: 100%;
   width: 50%;
   position: fixed;
-  z-index: 1;
+  /* z-index: 1; */
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding-top: 30px;
 }
+
 
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #111;
+  background-color: pink;
+  z-index: 2 ;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: red;
+  
 }
 
 /* If you want the content centered horizontally and vertically */
@@ -69,8 +74,8 @@
 
 /* Style the image inside the centered container, if needed */
 .centered img {
-  width: 150px;
-  border-radius: 50%;
+  width: 100%;
+  /* border-radius: 50%; */
   
 }
 
